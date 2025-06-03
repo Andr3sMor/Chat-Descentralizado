@@ -71,5 +71,5 @@ python versionFinal.py
 
 ## Autor
 
-Andres Moreno, Santiago Mendivelso, Juan Muñoz y Leonardo (proyecto universitario de sistemas distribuidos y redes ad-hoc).
+Andres Moreno, Santiago Mendivelso, Juan Muñoz y Leonardo.
 
