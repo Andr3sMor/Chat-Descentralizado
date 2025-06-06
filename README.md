@@ -49,7 +49,7 @@ pip install matplotlib cryptography
 ```
 ---
 
-##🔧 Configuración de Red Ad-Hoc (Ubuntu/Linux)
+## 🔧 Configuración de Red Ad-Hoc (Ubuntu/Linux)
 
 > ⚠️ **Importante:** Sustituye `wlp0s20f3` por tu interfaz Wi-Fi real, además asegurate de tener BATMAN instalado previamente (batctl, batman-adv).
 
