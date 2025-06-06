@@ -46,6 +46,7 @@ Diseñar un sistema de mensajería **descentralizado**, **seguro** y **adaptable
 
 ```bash
 pip install matplotlib cryptography
+```
 ---
 
 ##🔧 Configuración de Red Ad-Hoc (Ubuntu/Linux)
@@ -65,7 +66,7 @@ ip link set up dev wlp0s20f3             # Activa la interfaz de nuevo.
 ip addr add 192.168.1.X/24 dev bat0      # Asigna una IP diferente a cada nodo.
 batctl n                                 # Muestra vecinos detectados.
 batctl tg                                # Muestra tabla de enrutamiento global.
-
+```
 ---
 
 ## 🔁 Cómo Reproducir Esta Red Paso a Paso
@@ -82,7 +83,7 @@ En `versionFinal.py`, cambia la siguiente línea por una clave de **32 bytes** i
 
 ```python
 SECRET_KEY = b'mi_clave_super_segura_de_32_bytes'
-
+```
 
 ### 🗺️ Configura las direcciones MAC-IP de cada nodo
 
@@ -94,7 +95,7 @@ self.mac_ip_map = {
     "58:00:e3:6a:28:79": "192.168.1.2",
     "a0:80:69:5e:64:b5": "192.168.1.3"
 }
-
+```
 Nota: Asegúrate de que las IPs coincidan con las asignadas vía ip addr.
 
 ---
